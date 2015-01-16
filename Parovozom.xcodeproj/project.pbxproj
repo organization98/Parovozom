@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32CED12C1A68FCC20006B50F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CED12B1A68FCC20006B50F /* main.m */; };
+		32CED12F1A68FCC20006B50F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CED12E1A68FCC20006B50F /* AppDelegate.m */; };
+		32CED1321A68FCC30006B50F /* Parovozom.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32CED1301A68FCC20006B50F /* Parovozom.xcdatamodeld */; };
+		32CED1351A68FCC30006B50F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CED1341A68FCC30006B50F /* ViewController.m */; };
+		32CED1381A68FCC30006B50F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32CED1361A68FCC30006B50F /* Main.storyboard */; };
+		32CED13A1A68FCC30006B50F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32CED1391A68FCC30006B50F /* Images.xcassets */; };
+		32CED13D1A68FCC30006B50F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32CED13B1A68FCC30006B50F /* LaunchScreen.xib */; };
+		32CED1491A68FCC30006B50F /* ParovozomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CED1481A68FCC30006B50F /* ParovozomTests.m */; };
+		32CED1581A68FE870006B50F /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CED1571A68FE870006B50F /* CoreDataManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32CED1431A68FCC30006B50F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32CED11E1A68FCC20006B50F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32CED1251A68FCC20006B50F;
+			remoteInfo = Parovozom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32CED1261A68FCC20006B50F /* Parovozom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parovozom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32CED12A1A68FCC20006B50F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32CED12B1A68FCC20006B50F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CED12D1A68FCC20006B50F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32CED12E1A68FCC20006B50F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32CED1311A68FCC20006B50F /* Parovozom.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Parovozom.xcdatamodel; sourceTree = "<group>"; };
+		32CED1331A68FCC30006B50F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		32CED1341A68FCC30006B50F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		32CED1371A68FCC30006B50F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32CED1391A68FCC30006B50F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		32CED13C1A68FCC30006B50F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		32CED1421A68FCC30006B50F /* ParovozomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParovozomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32CED1471A68FCC30006B50F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32CED1481A68FCC30006B50F /* ParovozomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParovozomTests.m; sourceTree = "<group>"; };
+		32CED1561A68FE870006B50F /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		32CED1571A68FE870006B50F /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32CED1231A68FCC20006B50F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32CED13F1A68FCC30006B50F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32CED11D1A68FCC20006B50F = {
+			isa = PBXGroup;
+			children = (
+				32CED1281A68FCC20006B50F /* Parovozom */,
+				32CED1451A68FCC30006B50F /* ParovozomTests */,
+				32CED1271A68FCC20006B50F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32CED1271A68FCC20006B50F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32CED1261A68FCC20006B50F /* Parovozom.app */,
+				32CED1421A68FCC30006B50F /* ParovozomTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32CED1281A68FCC20006B50F /* Parovozom */ = {
+			isa = PBXGroup;
+			children = (
+				32CED1551A68FE3B0006B50F /* Managers */,
+				32CED1591A68FEE30006B50F /* AppDelegate */,
+				32CED15A1A690A170006B50F /* ViewController */,
+				32CED1361A68FCC30006B50F /* Main.storyboard */,
+				32CED1391A68FCC30006B50F /* Images.xcassets */,
+				32CED13B1A68FCC30006B50F /* LaunchScreen.xib */,
+				32CED1301A68FCC20006B50F /* Parovozom.xcdatamodeld */,
+				32CED1291A68FCC20006B50F /* Supporting Files */,
+			);
+			path = Parovozom;
+			sourceTree = "<group>";
+		};
+		32CED1291A68FCC20006B50F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32CED12A1A68FCC20006B50F /* Info.plist */,
+				32CED12B1A68FCC20006B50F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32CED1451A68FCC30006B50F /* ParovozomTests */ = {
+			isa = PBXGroup;
+			children = (
+				32CED1481A68FCC30006B50F /* ParovozomTests.m */,
+				32CED1461A68FCC30006B50F /* Supporting Files */,
+			);
+			path = ParovozomTests;
+			sourceTree = "<group>";
+		};
+		32CED1461A68FCC30006B50F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32CED1471A68FCC30006B50F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32CED1551A68FE3B0006B50F /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				32CED1561A68FE870006B50F /* CoreDataManager.h */,
+				32CED1571A68FE870006B50F /* CoreDataManager.m */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		32CED1591A68FEE30006B50F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				32CED12D1A68FCC20006B50F /* AppDelegate.h */,
+				32CED12E1A68FCC20006B50F /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		32CED15A1A690A170006B50F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				32CED1331A68FCC30006B50F /* ViewController.h */,
+				32CED1341A68FCC30006B50F /* ViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32CED1251A68FCC20006B50F /* Parovozom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32CED14C1A68FCC30006B50F /* Build configuration list for PBXNativeTarget "Parovozom" */;
+			buildPhases = (
+				32CED1221A68FCC20006B50F /* Sources */,
+				32CED1231A68FCC20006B50F /* Frameworks */,
+				32CED1241A68FCC20006B50F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Parovozom;
+			productName = Parovozom;
+			productReference = 32CED1261A68FCC20006B50F /* Parovozom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32CED1411A68FCC30006B50F /* ParovozomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32CED14F1A68FCC30006B50F /* Build configuration list for PBXNativeTarget "ParovozomTests" */;
+			buildPhases = (
+				32CED13E1A68FCC30006B50F /* Sources */,
+				32CED13F1A68FCC30006B50F /* Frameworks */,
+				32CED1401A68FCC30006B50F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32CED1441A68FCC30006B50F /* PBXTargetDependency */,
+			);
+			name = ParovozomTests;
+			productName = ParovozomTests;
+			productReference = 32CED1421A68FCC30006B50F /* ParovozomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32CED11E1A68FCC20006B50F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Organization98;
+				TargetAttributes = {
+					32CED1251A68FCC20006B50F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					32CED1411A68FCC30006B50F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 32CED1251A68FCC20006B50F;
+					};
+				};
+			};
+			buildConfigurationList = 32CED1211A68FCC20006B50F /* Build configuration list for PBXProject "Parovozom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32CED11D1A68FCC20006B50F;
+			productRefGroup = 32CED1271A68FCC20006B50F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32CED1251A68FCC20006B50F /* Parovozom */,
+				32CED1411A68FCC30006B50F /* ParovozomTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32CED1241A68FCC20006B50F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32CED1381A68FCC30006B50F /* Main.storyboard in Resources */,
+				32CED13D1A68FCC30006B50F /* LaunchScreen.xib in Resources */,
+				32CED13A1A68FCC30006B50F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32CED1401A68FCC30006B50F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32CED1221A68FCC20006B50F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32CED1321A68FCC30006B50F /* Parovozom.xcdatamodeld in Sources */,
+				32CED12F1A68FCC20006B50F /* AppDelegate.m in Sources */,
+				32CED1581A68FE870006B50F /* CoreDataManager.m in Sources */,
+				32CED1351A68FCC30006B50F /* ViewController.m in Sources */,
+				32CED12C1A68FCC20006B50F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32CED13E1A68FCC30006B50F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32CED1491A68FCC30006B50F /* ParovozomTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32CED1441A68FCC30006B50F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32CED1251A68FCC20006B50F /* Parovozom */;
+			targetProxy = 32CED1431A68FCC30006B50F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32CED1361A68FCC30006B50F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32CED1371A68FCC30006B50F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32CED13B1A68FCC30006B50F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32CED13C1A68FCC30006B50F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32CED14A1A68FCC30006B50F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32CED14B1A68FCC30006B50F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32CED14D1A68FCC30006B50F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Parovozom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32CED14E1A68FCC30006B50F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Parovozom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		32CED1501A68FCC30006B50F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ParovozomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parovozom.app/Parovozom";
+			};
+			name = Debug;
+		};
+		32CED1511A68FCC30006B50F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ParovozomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parovozom.app/Parovozom";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32CED1211A68FCC20006B50F /* Build configuration list for PBXProject "Parovozom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32CED14A1A68FCC30006B50F /* Debug */,
+				32CED14B1A68FCC30006B50F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32CED14C1A68FCC30006B50F /* Build configuration list for PBXNativeTarget "Parovozom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32CED14D1A68FCC30006B50F /* Debug */,
+				32CED14E1A68FCC30006B50F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32CED14F1A68FCC30006B50F /* Build configuration list for PBXNativeTarget "ParovozomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32CED1501A68FCC30006B50F /* Debug */,
+				32CED1511A68FCC30006B50F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		32CED1301A68FCC20006B50F /* Parovozom.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				32CED1311A68FCC20006B50F /* Parovozom.xcdatamodel */,
+			);
+			currentVersion = 32CED1311A68FCC20006B50F /* Parovozom.xcdatamodel */;
+			path = Parovozom.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 32CED11E1A68FCC20006B50F /* Project object */;
+}
